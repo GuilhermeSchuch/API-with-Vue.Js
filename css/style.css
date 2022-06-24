@@ -1,0 +1,66 @@
+@font-face{
+    font-family: "Kdam";
+    src: url("../fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kdam", sans-serif;
+    color: #131313;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    height: 100vh;
+}
+
+img{
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #272727;
+}
+
+h1{
+    font-size: 1.7em;
+    margin: auto;
+}
+
+button{
+    margin-top: 1vh;
+}
+
+#app{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.card{
+    background-color: #454442;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+.male{
+    -webkit-box-shadow: 0px 0px 14px 6px rgba(54,36,255,0.83); 
+    box-shadow: 0px 0px 14px 6px rgba(54,36,255,0.83);
+}
+
+.female{
+    -webkit-box-shadow: 0px 0px 14px 6px rgba(255,10,251,0.83); 
+    box-shadow: 0px 0px 14px 6px rgba(255,10,251,0.83);
+}
+
+@media (min-height: 700px){
+    #app{
+        min-height: 30vh;
+    }
+}
